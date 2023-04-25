@@ -3,8 +3,8 @@ This Python script uses imaplib and email libraries to allow the user to downloa
 
 Steps to run the code:
 
-Edit the code to include your Gmail account credentials, email addresses, and subject lines.
-Run the script in your Python environment (Python 2.7/3.6 compatible).
-The code will create a folder called attachments to store the downloaded files, if the folder does not already exist.
-The script searches the email messages based on the set parameters.
-The script saves attachments that meet the criteria to the attachments folder.
+  Edit the code to include your Gmail account credentials, email addresses, and subject lines.
+  Run the script in your Python environment (Python 2.7/3.6 compatible).
+  The code will create a folder called attachments to store the downloaded files, if the folder does not already exist.
+  The script searches the email messages based on the set parameters.
+  The script saves attachments that meet the criteria to the attachments folder.
