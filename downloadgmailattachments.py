@@ -22,7 +22,7 @@ if 'attachments' not in os.listdir(detach_dir):
     os.mkdir('attachments')
 try:
     imapSession = imaplib.IMAP4_SSL('imap.gmail.com')
-    typ, accountDetails = imapSession.login('felix.lu@fr8labs.co', 'wgcntfkafckdlsas')
+    typ, accountDetails = imapSession.login('YOUR_EMAIL@YOUR_EMAILHERE.COM', 'YOUR_PASSWORD_HERE')
     imapSession.select('Inbox')
     typ, data = imapSession.search(None, 'ALL')
 
